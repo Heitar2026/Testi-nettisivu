@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link:rel></link:rel>
+    <title>Minun ensimmäinen nettisivu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<head>
+
+<body>
+    <h1>Heidi Tarkka</h1>
+    <p>Asiakkuuspäällikkö</p>
+    <p>Tässä on lisäteksti</p>
+<nav>
+    <h2>Tutustu lisää</h2>
+<p>Alta löydät lisää tietoa minusta:</p>
+
+<a href="http://www.linkedin.com/in/heiditarkka">LinkedIn profiili</a>
+<a href="about.html">Tietoa minusta</a>
+</nav>
+
+<Main>
+<section>
+<h2>Osaamisalueet</h2>
+    <ol>
+        <li>Projektijohtaminen</li>
+        <li>Liiketoiminnan kehittäminen</li>
+        <li>Fasilitointi</li>
+        <li>Myynti</li>
+    </ol>
+</section>
+
+<section>
+<h2>Valokuvia</h2>
+    <img src="kissa.jpg" alt="Makoileva kissa" srcset=""width= "300"> 
+</section>
+</main>
+<button onclick="haeNeuvo()">Hae neuvo</button>
+
+<p id="tulos">Paina nappia hakeaksesi neuvon.</p>
+<footer>
+    <p>&copy;2026 Heidi Tarkka</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
